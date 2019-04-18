@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Homepagina</h1>
+    <p>Deze pagina gaat over verschillende items en het testen van navigatie naar deze items</p>
+    <a href="#content">Ga naar de inhoud van de pagina</a>
+    <a href="#nav">Ga naar de navigatie</a>
+  </header>
+  <main id="content">
+    <h2>Content</h2>
+    <article>
+      <h3 id="hi1">Hoofditem 1</h3>
+    </article>
+    <article>
+      <h3 id="hi2">Hoofditem 2</h3>
+    </article>
+    <article>
+      <h3 id="hi3">Hoofditem 3</h3>
+      <h4 id="si1">Subitem 1</h4>
+      <h4 id="si2">Subitem 2</h4>
+      <h4 id="si3">Subitem 3</h4>
+    </article>
+    <article>
+      <h3 id="hi4">Hoofditem 4</h3>
+    </article>
+  </main>
+  <nav id="nav">
+    <ul>
+      <li><a href="#hi1">Hoofditem 1</a></li>
+      <li><a href="#hi2">Hoofditem 2</a></li>
+      <li>
+        <a href="#hi3">Hoofditem 3</a>
+        <ul class="submenu">
+          <li><a href="#si1">Sub item 1</a></li>
+          <li><a href="#si2">Sub item 2</a></li>
+          <li><a href="#si3">Sub item 3</a></li>
+        </ul>
+      </li>
+      <li><a href="#hi4">Hoofditem 4</a></li>
+    </ul>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>

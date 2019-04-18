@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      color: transparent;
+    }
+    *:focus {
+      color: #000;
+    }
+  </style>
+</head>
+<body class="boeken">
+  <p>Welkom bij het boekingsproces</p>
+
+  <section id="boeken">
+    <h2>Boekingsproces</h2>
+    <form action="./resultaat.html">
+      <label>
+        Op welke datum wil je vertrekken? Voer de datum in als dag, maand, jaar gescheiden door middelstreepjes.
+        <input type="text" id="input-datum-heen">
+        <button id="datum-heen">Luister naar wat je ingevuld hebt als vertrekdatum</button>
+      </label>
+      <label>
+        Op welke datum wil je terug komen? Voer de datum in als dag, maand, jaar gescheiden door middelstreepjes.
+        <input type="text" id="input-datum-terug">
+        <button id="datum-terug">Luister naar wat je ingevuld hebt als retourdatum</button>
+      </label>
+      <input type="submit" value="Bevestig keuze">
+
+    </form>
+  </section>
+
+
+
+  <nav id="menu">
+    <h2>Hoofdmenu</h2>
+    <ul>
+      <li><a href="./index.html">Ga naar de homepagina</a></li>
+    </ul>
+  </nav>
+
+  <script src="./index.js">
+
+  </script>
+</body>
+</html>
