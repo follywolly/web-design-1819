@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Boeken</title>
+  <style>
+    * {
+      color: transparent;
+    }
+    *:focus {
+      color: #000;
+    }
+  </style>
+</head>
+<body class="boeken">
+
+  <section id="boeken">
+    <h2>Boekingsproces</h2>
+    <form action="./overzicht.html">
+      <label>
+        Welkom bij het boekingsproces.
+        We willen je vragen je vertrekdatum aan te geven. Op welke dag van de maand wil je weg? Vul het nummer van de dag van de maand in.
+        <input type="number">
+      </label>
+      <label>
+        In welke maand wil je weg?
+        <select>
+          <option>Januari</option>
+          <option>Februari</option>
+          <option>Maart</option>
+          <option>April</option>
+          <option>Mei</option>
+          <option>Juni</option>
+          <option>Juli</option>
+          <option>Augustus</option>
+          <option>september</option>
+          <option>Oktober</option>
+          <option>November</option>
+          <option>December</option>
+        </select>
+      </label>
+      <label>
+        In welk jaar wil je weg? Standaard is huidig kalenderjaar.
+        <input type="number" value="2018">
+      </label>
+      <label>
+        Op welke datum wil je terug komen? Voer hier eerst de dag in
+        <input type="number">
+      </label>
+      <label>
+        In welke maand wil je terug?
+        <select>
+          <option>Januari</option>
+          <option>Februari</option>
+          <option>Maart</option>
+          <option>April</option>
+          <option>Mei</option>
+          <option>Juni</option>
+          <option>Juli</option>
+          <option>Augustus</option>
+          <option>september</option>
+          <option>Oktober</option>
+          <option>November</option>
+          <option>December</option>
+        </select>
+      </label>
+      <label>
+        In welk jaar wil je terug? Standaard is huidig kalenderjaar.
+        <input type="number" value="2018">
+      </label>
+      <input type="submit" value="Keuzes bijhouden en naar het overzicht gaan">
+    </form>
+  </section>
+
+
+
+  <nav id="menu">
+    <h2>Hoofdmenu</h2>
+    <ul>
+      <li><a href="./index.html">Ga naar de homepagina</a></li>
+    </ul>
+  </nav>
+
+  <script src="./index.js">
+
+  </script>
+</body>
+</html>
